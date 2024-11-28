@@ -16,7 +16,7 @@ export async function POST(req) {
         content: "Write a haiku about recursion in programming.",
       },
     ],
-    model: "o1-mini", //Specify the model to use
+    model: "chatgpt-4o-latest", //Specify the model to use
     stream: true, // Enable streaming responses
   });
 
